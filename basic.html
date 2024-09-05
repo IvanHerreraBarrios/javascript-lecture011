@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript basics</title>
+</head>
+
+<body>
+    <h1>Javascript basics</h1>
+    <ul>
+        <li>Spring</li>
+        <li>Summer</li>
+        <li>Fall</li>
+        <li>Winter</li>
+    </ul>
+    <script>
+        /*Arithmetic operators + - * % ()*/
+
+        let a = 5 + (5 - 10) * 3;
+        let module = 5 % 2;
+
+        console.log(a);
+        console.log(module);
+
+        /* relational operators <, >, <=, >=, ==, ===, !=, !==*/
+
+        console.log(8 > 9);
+        console.log(9 > 8);
+        console.log(8 >= 9);
+        console.log(9 >= 8);
+        console.log(7 < 7);
+        console.log(7 <= 7);
+
+        /*
+        =  variable assignment
+        ==   value comparison
+        ===  data type and value
+        */
+
+        console.log(7 == 7);
+        console.log("7" == 7);
+        console.log(0 == false);
+
+        console.log(7 === 7);
+        console.log("7" === 7);
+        console.log(0 === false);
+
+        //increase decrease
+        let i = 2;
+
+        console.log(i++);
+        console.log(++i);
+
+        //i = i + 2;
+        //i *= 3;
+
+        //unary operator
+        i++;
+        i--;
+        ++i;
+        --i;
+        console.log(i);
+
+        //logical operators
+        /*
+        !Not
+        || Or
+        && And
+        */
+
+        console.log(!true);
+        console.log(!false);
+        console.log((9===9) ||("9" === 9));
+        console.log((9===9) && ("9" === 9));
+        console.log((9===9) && ("9" === "9"));
+        
+    </script>
+</body>
+
+</html>
